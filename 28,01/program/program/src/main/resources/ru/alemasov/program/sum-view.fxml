@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.alemasov.program.Controller.SumController">
+   <children>
+      <BorderPane layoutX="175.0" layoutY="152.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.0" minWidth="2.0" prefWidth="66.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="444.0" minWidth="10.0" prefWidth="226.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="322.0" minWidth="10.0" prefWidth="249.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.0" minWidth="10.0" prefWidth="60.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="26.0" minHeight="10.0" prefHeight="24.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="26.0" minHeight="10.0" prefHeight="14.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="49.0" minHeight="10.0" prefHeight="15.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="65.0" minHeight="10.0" prefHeight="15.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="80.0" minHeight="10.0" prefHeight="29.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="81.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="78.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="75.0" minHeight="8.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="86.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="75.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <HBox>
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #666666;">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#backButtonOnAction" text="Назад" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" style="-fx-background-color: #666666;" GridPane.columnIndex="1">
+                     <children>
+                        <Label text="MARATHON SKILLS 2016" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" style="-fx-background-color: #666666;" GridPane.columnIndex="2" />
+                  <HBox alignment="CENTER" style="-fx-background-color: #666666;" GridPane.columnIndex="3">
+                     <children>
+                        <Button mnemonicParsing="false" text="Logout" />
+                     </children>
+                  </HBox>
+                  <HBox style="-fx-background-color: #666666;" GridPane.rowIndex="12" />
+                  <HBox style="-fx-background-color: #666666;" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+                  <HBox alignment="CENTER" style="-fx-background-color: #666666;" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="12">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #666666;" />
+                        <Label prefHeight="17.0" prefWidth="510.0" text="18 дней 8 часов и 17 минут до старта марафона!" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2">
+                     <children>
+                        <Label text="Регистрация на марафон" textFill="#00000095">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <HBox alignment="CENTER" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3">
+                     <children>
+                        <Label text="Пожалуйста заполните всю информацию, чтобы зарегестрироваться на Sklls" />
+                     </children>
+                  </HBox>
+                  <HBox GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <HBox alignment="CENTER" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4">
+                     <children>
+                        <Label text="Marathon 2016 проводимом в Москве. Russia.С вами выяжутся после" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="5">
+                     <children>
+                        <Label text="регистрации для уточнения оплаты и другой информации." />
+                     </children></HBox>
+                  <HBox GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <HBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <children>
+                        <Label text="Вид марафона" textFill="#00000095">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <children>
+                        <Label text="Вариант комплектов" textFill="#00000095">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="216.0" text="42km Полный марафон($145)" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <CheckBox fx:id="onekm" mnemonicParsing="false" prefHeight="33.0" prefWidth="18.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <CheckBox fx:id="teokm" mnemonicParsing="false" text="21km Полумарафон($75)" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                  <CheckBox fx:id="threekm" mnemonicParsing="false" text="5km Малая дистанция($20)" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                  <CheckBox fx:id="avar" mnemonicParsing="false" text="Вариант А($0):№бегуна + RFID браслет" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                  <CheckBox fx:id="bvar" mnemonicParsing="false" prefHeight="30.0" prefWidth="291.0" text="Вариант В($20):вар.А+бейсболка+вода" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                  <CheckBox fx:id="cvar" mnemonicParsing="false" prefHeight="17.0" prefWidth="248.0" text="Вариант С($45):вар.В+футболка+сувенир" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+                  <HBox alignment="CENTER" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="11">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#regButtonOnAction" text="Регистрация">
+                           <HBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Label text="Регистрационный взнос        " textFill="#00000095">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="sumlabel" prefHeight="51.0" prefWidth="47.0" text="\$0" textFill="#00000095">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox GridPane.columnIndex="2" GridPane.rowIndex="11" />
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
